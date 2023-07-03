@@ -13,7 +13,9 @@ const Home = () => {
       </ul>
       <ul>
         <img src={randomBeer} alt="random beer" className="random-img" />
-        <h3>Random Beer</h3>
+        <Link to="/beers/random">
+          <h3>Random Beer</h3>
+        </Link>
       </ul>
       <ul>
         <img src={newBeer} alt="new beer" className="new-img" />
